@@ -1,0 +1,28 @@
+{
+  "name": "oo_opencart",
+  "license": "GPL-3.0",
+  "description": "OpenCart",
+  "version": "1.10.0",
+  "homepage": "https://kynu.xyz",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oovn/oo_opencart/"
+  },
+  "scripts": {
+    "install": "git clone https://github.com/opencart/opencart",
+    "start": "mv -rf opencart/upload/* .",
+    "ok": "rm -rf install"
+  },
+  "maintainers": [
+    {
+      "name": "yzazy",
+      "email": "yzazy@nodebb.xyz",
+      "url": "https://github.com/yzazy"
+    },
+    {
+      "name": "binhbat",
+      "email": "binhbat@nodebb.xyz",
+      "url": "https://github.com/binhbat"
+    }
+  ]
+}
